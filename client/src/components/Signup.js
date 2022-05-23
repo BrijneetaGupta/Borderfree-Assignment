@@ -79,13 +79,13 @@ const Signup = () => {
                 </span>
               </div>
 
-              {/* <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+              <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                 <input class="input100" type='text' name='work' id='work' autoComplete='off' value={user.work} onChange={handleInputs} placeholder='Enter your profession' />
                 <span class="focus-input100"></span>
                 <span class="symbol-input100">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                 </span>
-              </div> */}
+              </div>
 
               <div class="wrap-input100 validate-input" data-validate="Password is required">
                 <input class="input100" type='password' name='password' id='password' autoComplete='off' value={user.password} onChange={handleInputs} placeholder='Enter new password' />
